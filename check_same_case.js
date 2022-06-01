@@ -13,7 +13,7 @@ function sameCase(a, b) {
   //   (a.toLowerCase() == a && b.toLowerCase() == b);
 
   console.log("entering program");
-  const lettersNumbers = /^[A-Za-z0-9]*$/;
+  const lettersNumbers = /^[A-Za-z]*$/;
 
   if (lettersNumbers.test(a) && lettersNumbers.test(b)) {
     console.log("inside if statement a and b is string");
@@ -29,4 +29,4 @@ function sameCase(a, b) {
   return 0;
 }
 
-sameCase("H", ":");
+sameCase("5", "A");
